@@ -1,0 +1,16 @@
+name: sync main with dev
+on: 
+  create:
+
+jobs:
+  run:
+    name: Update main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+          fetch-depth: 0
+          submodules: true
+      - run: |
+        echo "${GITHUB_REF}"

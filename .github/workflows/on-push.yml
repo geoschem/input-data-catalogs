@@ -1,4 +1,4 @@
-name: Automatic updater
+name: sync main with dev
 on: 
   push:
     branches:
@@ -15,24 +15,12 @@ jobs:
           fetch-depth: 0
           submodules: true
       - run: |
-          pwd
-          echo 1
-          ls
           cd develop
-          pwd
-          echo 4
-          ls
           git fetch
-          git branch -a
           git checkout origin/dev
-          echo 2
-          ls
           cd ..
-          echo 3
-          ls
-          git status
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "generated"
+          git commit -m "Updated develop catalogs on main"
           git push origin main
