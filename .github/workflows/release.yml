@@ -20,6 +20,9 @@ jobs:
           cd develop
           git fetch
           git checkout dev
+          cd ..
+          ls -lh
+          git status
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
