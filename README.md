@@ -44,6 +44,8 @@ Now you can run `bashdatacatalog` commands like
 liam:/ExtData$ bashdatacatalog MyCatalogs/**/*.csv list-missing url 2019-01-01 2020-01-01 
 ```
 
+**Note**: You should always run `bashdatacatalog` from the top-level of input data repository (i.e., `/ExtData` in my case).
+
 ## Update instructions for the GCST
 
 *When a collection is added/removed* - Make the appropriate changes to the catalog files on the `dev` branch.
