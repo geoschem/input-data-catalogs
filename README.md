@@ -8,6 +8,8 @@ This repository has input data catalogs for GEOS-Chem. The catalog files are int
 
 ## Instructions for users
 
+**NOTE:** You do not need to clone this repository. You can download data catalogs from [here](http://geoschemdata.wustl.edu/ExtData/DataCatalogs/).
+
 Create a directory called `MyCatalogs/` in the top-level of your GEOS-Chem input data directory (the directory that has `HEMCO/`, `CHEM_INPUTS/`, etc. ).
 This directory is where you will put the catalog files you are actively using.
 
@@ -44,7 +46,7 @@ Now you can run `bashdatacatalog` commands like
 liam:/ExtData$ bashdatacatalog MyCatalogs/**/*.csv list-missing url 2019-01-01 2020-01-01 
 ```
 
-**Note**: You should always run `bashdatacatalog` from the top-level of input data repository (i.e., `/ExtData` in my case).
+**NOTE**: You should always run `bashdatacatalog` from the top-level of input data repository (i.e., `/ExtData` in my case).
 
 ## Update instructions for the GCST
 
