@@ -23,6 +23,7 @@ jobs:
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
+        branch: main
         with:
           author_name: LiamBindle
           author_email: liam.bindle@gmail.com
