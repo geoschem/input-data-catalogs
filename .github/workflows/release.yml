@@ -14,6 +14,8 @@ jobs:
 
       - name: Update main
         run: |
+          ls
+          pwd
           git checkout main
           cd develop
           git fetch
