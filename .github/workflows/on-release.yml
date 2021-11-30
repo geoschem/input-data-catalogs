@@ -1,6 +1,5 @@
 name: sync main with dev
-on: 
-  create:
+on: create
 
 jobs:
   run:
