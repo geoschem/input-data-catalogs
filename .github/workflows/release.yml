@@ -8,10 +8,10 @@ jobs:
   run:
     name: Update main
     runs-on: ubuntu-latest
-    with:
-      ref: main
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: main
       - run: |
           git status
           cd develop
