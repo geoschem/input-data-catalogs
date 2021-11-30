@@ -11,15 +11,15 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+        with:
+          ref: main
+
 
       - name: Update main
         run: |
-          git fetch
-          git checkout main
           cd develop
           git fetch
           git checkout dev
-          cd ..
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
