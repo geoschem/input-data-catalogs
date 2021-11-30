@@ -8,27 +8,19 @@ jobs:
   run:
     name: Update main
     runs-on: ubuntu-latest
+    with:
+      ref: main
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
-        with:
-          ref: main
-
-
-      - name: Update main
-        run: |
+      - uses: actions/checkout@v2
+      - run: |
+          git status
           cd develop
           git fetch
           git checkout dev
           cd ..
-          ls -lh
           git status
-
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v7
-        with:
-          branch: main
-          author_name: LiamBindle
-          author_email: liam.bindle@gmail.com
-          message: 'Updated develop catalogs (automatic)'
-          add: 'develop'
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
