@@ -13,6 +13,7 @@ jobs:
           submodules: true
       - run: |
           TAG=${GITHUB_REF##*/}
+          echo "The triggering tag is ${TAG}"
           echo $TAG | grep '[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*' || exit 0
           MAJOR_MINOR=$(echo $TAG | grep -o "^[0-9][0-9]*\.[0-9][0-9]*")
-          echo $MINOR_MAJOR
+          echo "The major.minor is ${MAJOR_MINOR}"
