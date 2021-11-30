@@ -14,12 +14,15 @@ jobs:
           ref: main
           submodules: true
       - run: |
+          pwd
           echo 1
           ls
           cd develop
+          pwd
           echo 4
           ls
           git fetch
+          git branch -a
           git checkout origin/dev
           echo 2
           ls
