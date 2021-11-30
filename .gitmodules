@@ -1,3 +1,6 @@
 [submodule "13.2"]
 	path = 13.2
 	url = https://github.com/geoschem/input-data-catalogs.git
+[submodule "develop"]
+	path = develop
+	url = https://github.com/geoschem/input-data-catalogs.git
