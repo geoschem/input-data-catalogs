@@ -1,4 +1,4 @@
-name: sync main with dev
+name: sync main with new release
 on: create
 
 jobs:
