@@ -17,8 +17,10 @@ jobs:
           echo 1
           ls
           cd develop
+          echo 4
+          ls
           git fetch
-          git checkout dev
+          git checkout origin/dev
           echo 2
           ls
           cd ..
