@@ -23,8 +23,8 @@ jobs:
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
-        branch: main
         with:
+          branch: main
           author_name: LiamBindle
           author_email: liam.bindle@gmail.com
           message: 'Updated develop catalogs (automatic)'
