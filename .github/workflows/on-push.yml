@@ -1,4 +1,4 @@
-name: sync main with dev
+name: Update main (on push)
 on: 
   push:
     branches:
