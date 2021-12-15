@@ -1,2 +1,5 @@
 Path to collection,Canonical collection (URL),Enabled,Notes
-GEOSCHEM_RESTARTS/v2021-09,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2021-09,1,
+GEOSCHEM_RESTARTS/v2021-09,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2021-09,1,For GEOS_Chem 13.3.0+ restarts
+GEOSCHEM_RESTARTS/v2021-06,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2021-06,1,For "metals" specialty simulation
+GEOSCHEM_RESTARTS/v2020-02,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2020-02,1,For "POPs" and other specialty simulations
+GEOSCHEM_RESTARTS/GC_13.0.0,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/GC_13.0.0,1,For TransportTracers simulation
