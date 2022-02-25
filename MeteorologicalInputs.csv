@@ -1,19 +1,19 @@
-Path to collection,Canonical collection (URL),Enabled,Notes
-GEOS_0.25x0.3125_AS/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125_AS/GEOS_FP,0,
-GEOS_0.25x0.3125_CH/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125_CH/GEOS_FP,0,
-GEOS_0.25x0.3125_EU/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125_EU/GEOS_FP,0,
-GEOS_0.25x0.3125/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125/GEOS_FP,0,
-GEOS_0.25x0.3125_NA/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125_NA/GEOS_FP,0,
-GEOS_0.5x0.625_AS/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_AS/GEOS_FP,0,
-GEOS_0.5x0.625_AS/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_AS/MERRA2,0,
-GEOS_0.5x0.625_CH/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_CH/GEOS_FP,0,
-GEOS_0.5x0.625_CH/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_CH/MERRA2,0,
-GEOS_0.5x0.625_EU/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_EU/GEOS_FP,0,
-GEOS_0.5x0.625_EU/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_EU/MERRA2,0,
-GEOS_0.5x0.625/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625/MERRA2,1,
-GEOS_0.5x0.625_NA/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_NA/GEOS_FP,0,
-GEOS_0.5x0.625_NA/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_NA/MERRA2,0,
-GEOS_2x2.5/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_2x2.5/GEOS_FP,0,
-GEOS_2x2.5/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_2x2.5/MERRA2,1,
-GEOS_4x5/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_4x5/GEOS_FP,0,
-GEOS_4x5/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_4x5/MERRA2,0,
+Path to Collection,Collection URL,Enabled/Disabled,Comments
+GEOS_0.25x0.3125_AS/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125_AS/GEOS_FP,0,Optional; For nested AS with GEOS-FP
+GEOS_0.25x0.3125_CH/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125_CH/GEOS_FP,0,Optional; For nested CH with GEOS-FP
+GEOS_0.25x0.3125_EU/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125_EU/GEOS_FP,0,Optional; For nested EU with GEOS-FP
+GEOS_0.25x0.3125/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125/GEOS_FP,0,Optional; For GCHP with GEOS-FP
+GEOS_0.25x0.3125_NA/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.25x0.3125_NA/GEOS_FP,0,Optional; For nested NA with GEOS-FP
+GEOS_0.5x0.625_AS/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_AS/GEOS_FP,0,Optional; For nested AS with GEOS-FP at 0.5x0.625
+GEOS_0.5x0.625_AS/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_AS/MERRA2,0,Optional; For nested AS with MERRA2
+GEOS_0.5x0.625_CH/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_CH/GEOS_FP,0,Optional; For nested CH with GEOS-FP at 0.5x0.625
+GEOS_0.5x0.625_CH/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_CH/MERRA2,0,Optional; For nested CH with MERRA2
+GEOS_0.5x0.625_EU/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_EU/GEOS_FP,0,Optional; For nested EU with GEOS-FP at 0.5x0.625
+GEOS_0.5x0.625_EU/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_EU/MERRA2,0,Optional; For nested EU with MERRA2
+GEOS_0.5x0.625/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625/MERRA2,1,Default; For GCHP with MERRA2
+GEOS_0.5x0.625_NA/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_NA/GEOS_FP,0,Optional; For nested NA with GEOS-FP at 0.5x0.625
+GEOS_0.5x0.625_NA/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_0.5x0.625_NA/MERRA2,0,Optional; For nested NA with MERRA2
+GEOS_2x2.5/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_2x2.5/GEOS_FP,0,Optional; For GC-Classic 2x2.5 with GEOS-FP
+GEOS_2x2.5/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_2x2.5/MERRA2,1,Default; For GC-Classic 2x2.5 with MERRA2
+GEOS_4x5/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_4x5/GEOS_FP,0,Optional; For GC-Classic 4x5 with GEOS-FP
+GEOS_4x5/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_4x5/MERRA2,0,Default; For GC-Classic 4x5 with MERRA2
