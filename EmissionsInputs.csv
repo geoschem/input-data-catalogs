@@ -1,6 +1,6 @@
 Path to Collection,Collection URL,Enabled/Disabled,Comments (and corresponding HEMCO extension switches)
 HEMCO/ACET/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/ACET/v2014-07,1,For SeaFlux
-HEMCO/AEIC/v2015-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/AEIC/v2015-01,1,For AEIC global aircraft
+HEMCO/AEIC2019/v2022-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/AEIC2019/v2022-03,1,For AEIC2019 global aircraft
 HEMCO/AFCID/v2018-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/AFCID/v2018-04,1,For global AFCID
 HEMCO/ALD2/v2017-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/ALD2/v2017-03,1,For SeaFlux
 HEMCO/AnnualScalar/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/AnnualScalar/v2014-07,1,For XIAO_C3H8 and HTAP
