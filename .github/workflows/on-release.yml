@@ -1,0 +1,31 @@
+name: Update main (on release)
+on: create
+
+jobs:
+  run:
+    name: Update main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+          fetch-depth: 0
+          submodules: true
+      - run: |
+          TAG=${GITHUB_REF##*/}
+          echo "The triggering tag is ${TAG}"
+          echo $TAG | grep '[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*' || exit 0
+          MAJOR_MINOR=$(echo $TAG | grep -o "^[0-9][0-9]*\.[0-9][0-9]*")
+          echo "The major.minor is ${MAJOR_MINOR}"
+
+          [ -d ${MAJOR_MINOR} ] || git submodule add https://github.com/geoschem/input-data-catalogs.git ${MAJOR_MINOR}
+          cd ${MAJOR_MINOR}
+          git fetch
+          git checkout $TAG
+          cd ..
+
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Updated main for ${MAJOR_MINOR} release"
+          git push origin main
