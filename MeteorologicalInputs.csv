@@ -17,3 +17,5 @@ GEOS_2x2.5/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_2x2.5/GEOS_FP,0,Op
 GEOS_2x2.5/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_2x2.5/MERRA2,1,Default; For GC-Classic 2x2.5 with MERRA2
 GEOS_4x5/GEOS_FP,http://geoschemdata.wustl.edu/ExtData/GEOS_4x5/GEOS_FP,0,Optional; For GC-Classic 4x5 with GEOS-FP
 GEOS_4x5/MERRA2,http://geoschemdata.wustl.edu/ExtData/GEOS_4x5/MERRA2,0,Default; For GC-Classic 4x5 with MERRA2
+GEOS_c720,http://geoschemdata.wustl.edu/ExtData/GEOS_C720/GEOS_FP_DerivedWind,0,Optional: GEOS c720 met with winds derived from mass fluxes
+GEOS_c720,http://geoschemdata.wustl.edu/ExtData/GEOS_C720/GEOS_FP_Native,0,Optional: GEOS c720 mass fluxes on the native cubed-sphere grid
