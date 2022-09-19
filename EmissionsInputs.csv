@@ -56,6 +56,7 @@ HEMCO/APEI/v2016-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/APEI/v2016-11,0,
 HEMCO/CEDS/v2020-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/CEDS/v2020-08,0,Optional; For CEDS GBD-MAPS
 HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,0,Optional; For CH4 and IMI simulations
 HEMCO/DICE_Africa/v2016-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
+HEMCO/GCClassic_Output/13.0.0,http://geoschemdata.wustl.edu/ExtData/HEMCO/GCClassic_Output/13.0.0,0,Optional: For specialty simulations needing to read offline fields
 HEMCO/HTAP/v2015-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/HTAP/v2015-03,0,Optional; For HTAP and HTAP_SHIP
 HEMCO/NEI2016/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/NEI2016/v2021-06,0,Optional; For EPA NEI2016 USA
 HEMCO/OLSON_MAP/v2019-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/OLSON_MAP/v2019-02,0,Optional; For OLSON_LANDMAP
