@@ -18,7 +18,7 @@ jobs:
           VERSION=$(echo $TAG | grep -o "^[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*")
           echo "The version is ${VERSION}"
 
-          [ -d ${VERSION ] || git submodule add https://github.com/geoschem/input-data-catalogs.git ${VERSION}
+          [ -d ${VERSION} ] || git submodule add https://github.com/geoschem/input-data-catalogs.git ${VERSION}
           cd ${VERSION}
           git fetch
           git checkout $TAG
