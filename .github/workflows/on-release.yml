@@ -15,11 +15,11 @@ jobs:
           TAG=${GITHUB_REF##*/}
           echo "The triggering tag is ${TAG}"
           echo $TAG | grep '[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*' || exit 0
-          MAJOR_MINOR=$(echo $TAG | grep -o "^[0-9][0-9]*\.[0-9][0-9]*")
-          echo "The major.minor is ${MAJOR_MINOR}"
+          VERSION=$(echo $TAG | grep -o "^[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*")
+          echo "The version is ${VERSION}"
 
-          [ -d ${MAJOR_MINOR} ] || git submodule add https://github.com/geoschem/input-data-catalogs.git ${MAJOR_MINOR}
-          cd ${MAJOR_MINOR}
+          [ -d ${VERSION ] || git submodule add https://github.com/geoschem/input-data-catalogs.git ${VERSION}
+          cd ${VERSION}
           git fetch
           git checkout $TAG
           cd ..
@@ -27,5 +27,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Updated main for ${MAJOR_MINOR} release"
+          git commit -m "Updated main for ${VERSION} release"
           git push origin main
