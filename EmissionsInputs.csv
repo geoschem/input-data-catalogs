@@ -14,7 +14,7 @@ HEMCO/DMS/v2015-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/DMS/v2015-07,1,Fo
 HEMCO/DUST_DEAD/v2019-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/DUST_DEAD/v2019-06,1,For DustDead
 HEMCO/EDGARv42/v2015-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/EDGARv42/v2015-02,1,For EDGARv43 and diurnal scale factors
 HEMCO/GFED4/v2015-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/GFED4/v2015-10,1,For GFED_daily
-HEMCO/GFED4/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/GFED4/v2020-02,1,For GFED4 global biomass burning emissions
+HEMCO/GFED4/v2023-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/GFED4/v2020-02,1,For GFED4 global biomass burning emissions
 HEMCO/GMI/v2015-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/GMI/v2015-02,1,For GMI_OH and GMI_PROD_LOSS
 HEMCO/IODINE/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/IODINE/v2020-02,1,For ORDONEZ_IODOCARB
 HEMCO/LIGHTNOX/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/LIGHTNOX/v2014-07,1,For LightNOx CDF table
@@ -58,7 +58,7 @@ HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,0,Op
 HEMCO/CH4/v2022-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-11,0,Optional; For CH4 and IMI simulations (file attributes fixed)
 HEMCO/CO2/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CO2/v2022-01,0,Optional; For CO2 and carbon simulations
 HEMCO/DICE_Africa/v2016-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
-HEMCO/GCClassic_Output/13.0.0,http://geoschemdata.wustl.edu/ExtData/HEMCO/GCClassic_Output/13.0.0,0,Optional: For specialty simulations needing to read offline fields
+HEMCO/GCClassic_Output/14.0.0,http://geoschemdata.wustl.edu/ExtData/HEMCO/GCClassic_Output/14.0.0,0,Optional: For specialty simulations needing to read offline fields
 HEMCO/HTAP3/v2022-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/HTAP3/v2022-12,0,Optional; For HTAPv3 and HTAPv3_SHIP
 HEMCO/MERCURY/v2022-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/MERCURY/v2022-10,0,Optional; For Hg simulations
 HEMCO/NEI2005/v2023-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/NEI2005/v2023-02,0,Optional; Corrected NEI11/NEI16 scale factors
