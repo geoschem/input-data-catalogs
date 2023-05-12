@@ -54,8 +54,9 @@ HEMCO/TrashEmis/v2015-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/TrashEmis/v
 HEMCO/Yuan_XLAI/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/Yuan_XLAI/v2021-06,1,For YUAN_MODIS_LAI (optional?)
 HEMCO/APEI/v2016-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/APEI/v2016-11,0,Optional; APEI Canada
 HEMCO/CEDS/v2020-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/CEDS/v2020-08,0,Optional; For CEDS GBD-MAPS
-HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,0,Optional; For CH4 and IMI simulations
-HEMCO/CH4/v2022-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-11,0,Optional; For CH4 and IMI simulations (file attributes fixed)
+HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,0,Optional; For carbon, CH4, & IMI simulations
+HEMCO/CH4/v2022-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-11,0,Optional; For carbon, CH4, & IMI simulations (file attributes fixed)
+HEMCO/CH4/v2023-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2023-04,0,Optional; For carbon, CH4, & IMI simulations (EDGARv7, Loss freqs, Hydropower emissions)
 HEMCO/CO2/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CO2/v2022-01,0,Optional; For CO2 and carbon simulations
 HEMCO/DICE_Africa/v2016-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
 HEMCO/GCClassic_Output/14.0.0,http://geoschemdata.wustl.edu/ExtData/HEMCO/GCClassic_Output/14.0.0,0,Optional: For specialty simulations needing to read offline fields
