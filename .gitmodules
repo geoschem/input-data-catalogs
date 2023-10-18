@@ -28,3 +28,6 @@
 [submodule "14.2.0"]
 	path = 14.2.0
 	url = https://github.com/geoschem/input-data-catalogs.git
+[submodule "14.2.1"]
+	path = 14.2.1
+	url = https://github.com/geoschem/input-data-catalogs.git
