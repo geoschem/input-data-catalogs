@@ -1,4 +1,5 @@
 Path to Collection,Collection URL,Enabled/Disabled,Comments
+GEOSCHEM_RESTARTS/GC_14.3.0,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/GC_14.3.0,1,
 GEOSCHEM_RESTARTS/GC_14.2.0,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/GC_14.2.0,1,
 GEOSCHEM_RESTARTS/v2021-06,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2021-06,0,Optional; For metals specialty simulation
 GEOSCHEM_RESTARTS/v2020-02,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2020-02,0,Optional; For POPs and other specialty simulations
