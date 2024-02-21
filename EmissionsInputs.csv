@@ -39,7 +39,7 @@ HEMCO/RONO2/v2019-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/RONO2/v2019-05,
 HEMCO/SfcFix/v2019-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/SfcFix/v2019-12,1,For SfcVMR and CMIP6_SFC_BC
 HEMCO/SOA/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/SOA/v2014-07,1,For MEGAN in GCHP
 HEMCO/STRAT/v2015-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/STRAT/v2015-01,1,For CCM_STRAT_Bry
-HEMCO/TIMEZONES/v2024-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/TIMEZONES/v2015-02,1,For time zones (monthly)
+HEMCO/TIMEZONES/v2024-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/TIMEZONES/v2024-02,1,For time zones (monthly)
 HEMCO/UVALBEDO/v2019-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/UVALBEDO/v2019-06,1,For UVALBEDO
 HEMCO/VerticalScaleFactors/v2021-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/VerticalScaleFactors/v2021-05,1,For CEDSv2 and CEDS_GBDMAPS
 HEMCO/VOLCANO/v2021-09,http://geoschemdata.wustl.edu/ExtData/HEMCO/VOLCANO/v2021-09,1,For Volcano
