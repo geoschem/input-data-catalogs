@@ -42,7 +42,7 @@ HEMCO/STRAT/v2015-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/STRAT/v2015-01,
 HEMCO/TIMEZONES/v2024-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/TIMEZONES/v2024-02,1,For time zones (monthly)
 HEMCO/UVALBEDO/v2019-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/UVALBEDO/v2019-06,1,For UVALBEDO
 HEMCO/VerticalScaleFactors/v2021-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/VerticalScaleFactors/v2021-05,1,For CEDSv2 and CEDS_GBDMAPS
-HEMCO/VOLCANO/v2024-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/VOLCANO/v2024-03,1,For Volcano
+HEMCO/VOLCANO/v2024-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/VOLCANO/v2024-04,1,For Volcano
 HEMCO/XIAO/v2014-09,http://geoschemdata.wustl.edu/ExtData/HEMCO/XIAO/v2014-09,1,For XIAO_C3H8
 HEMCO/EDGARv43/v2016-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/EDGARv43/v2016-11,1,For EDGARv43 and DICE_Africa (optional?)
 HEMCO/GEIA/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/GEIA/v2014-07,1,For DICE_Africa (optional?)
