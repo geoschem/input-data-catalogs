@@ -1,7 +1,8 @@
 Path to Collection,Collection URL,Enabled/Disabled,Comments
 CHEM_INPUTS/CLOUD_J/v2023-05,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/CLOUD_J/v2023-05,1,
-CHEM_INPUTS/FAST_JX/v2021-10,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/FAST_JX/v2024-05,1,
+CHEM_INPUTS/FAST_JX/v2024-05,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/FAST_JX/v2024-05,1,
 CHEM_INPUTS/FastJ_201204,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/FastJ_201204,1,
 CHEM_INPUTS/Linoz_200910,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/Linoz_200910,1,
 CHEM_INPUTS/Olson_Land_Map_201203,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/Olson_Land_Map_201203,1,For OLSON_LANDMAP in GCHP
 CHEM_INPUTS/UCX_201403,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/UCX_201403,1,
+CHEM_INPUTS/FAST_JX/v2024-05-Hg,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/FAST_JX/v2024-05-Hg,1,For Hg simulation
