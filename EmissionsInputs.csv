@@ -16,6 +16,7 @@ HEMCO/EDGARv42/v2015-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/EDGARv42/v20
 HEMCO/GFED4/v2015-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/GFED4/v2015-10,1,For GFED_daily
 HEMCO/GFED4/v2023-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/GFED4/v2023-03,1,For GFED4 global biomass burning emissions
 HEMCO/GMI/v2015-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/GMI/v2015-02,1,For GMI_OH and GMI_PROD_LOSS
+HEMCO/GT_Chlorine/v2024-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/GT_Chlorine/v2024-05,1,For Georgia Tech Chlorine emissions
 HEMCO/IODINE/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/IODINE/v2020-02,1,For ORDONEZ_IODOCARB
 HEMCO/LIGHTNOX/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/LIGHTNOX/v2014-07,1,For LightNOx CDF table
 HEMCO/MASKS/v2018-09,http://geoschemdata.wustl.edu/ExtData/HEMCO/MASKS/v2018-09,1,For China mask and APEI and NEI2016_MONMEAN and DICE_Africa
