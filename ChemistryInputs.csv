@@ -8,3 +8,5 @@ CHEM_INPUTS/FastJ_201204,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/FastJ
 CHEM_INPUTS/Linoz_200910,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/Linoz_200910,1,
 CHEM_INPUTS/Olson_Land_Map_201203,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/Olson_Land_Map_201203,1,For OLSON_LANDMAP in GCHP
 CHEM_INPUTS/UCX_201403,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/UCX_201403,1,
+CHEM_INPUTS/APM_data_201906,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/APM_data_201906,0,For APM microphysics
+CHEM_INPUTS/TOMAS_201402,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/TOMAS_201402,0,For TOMAS microphysics
