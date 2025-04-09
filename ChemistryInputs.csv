@@ -1,5 +1,5 @@
 Path to Collection,Collection URL,Enabled/Disabled,Comments
-CHEM_INPUTS/Aerosol_Optics/v2024-08,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/Aerosol_Optics/v2024-08,1,Aerosol optics properties for computing AODs
+CHEM_INPUTS/Aerosol_Optics/v2025-03,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/Aerosol_Optics/v2025-03,1,Aerosol optics properties for computing AODs
 CHEM_INPUTS/CLOUD_J/v2025-01,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/CLOUD_J/v2025-01,1,Configuration files for Cloud-J v8+
 CHEM_INPUTS/CLOUD_J/v2025-01-Hg,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/CLOUD_J/v2025-01-Hg,1,Configuration files for Cloud-J v8+ (Hg simulation)
 CHEM_INPUTS/FAST_JX/v2024-05,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/FAST_JX/v2024-05,1,Configuration files for FAST-JX (needed for Hg simulation)
