@@ -1,0 +1,83 @@
+Path to Collection,Collection URL,Enabled/Disabled,Comments (and corresponding HEMCO extension switches)
+HEMCO/ACET/v2014-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/ACET/v2014-07,1,For SeaFlux
+HEMCO/AEIC2019/v2022-03,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/AEIC2019/v2022-03,1,For AEIC2019 global aircraft
+HEMCO/AFCID/v2018-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/AFCID/v2018-04,1,For global AFCID
+HEMCO/ALD2/v2017-03,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/ALD2/v2017-03,1,For SeaFlux
+HEMCO/AnnualScalar/v2014-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/AnnualScalar/v2014-07,1,For XIAO_C3H8 and HTAP
+HEMCO/BIOFUEL/v2019-08,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/BIOFUEL/v2019-08,1,For XIAO_C3H8
+HEMCO/BROMINE/v2015-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/BROMINE/v2015-02,1,For LIANG_BROMOCARB
+HEMCO/C2H6_2010/v2019-06,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/C2H6_2010/v2019-06,1,For TZOMPASOSA_C2H6
+HEMCO/CEDS/v2024-06,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CEDS/v2024-06,1,For CEDS_01x01
+HEMCO/CH3I/v2014-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH3I/v2014-07,1,For SeaFlux
+HEMCO/CMIP6/v2020-03,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CMIP6/v2020-03,1,For SfcVMR and CMIP6_SFC_CH4
+HEMCO/DMS/v2015-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/DMS/v2015-07,1,For SeaFlux
+HEMCO/DUST_DEAD/v2019-06,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/DUST_DEAD/v2019-06,1,For DustDead
+HEMCO/EDGARv42/v2015-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/EDGARv42/v2015-02,1,For EDGARv43 and diurnal scale factors
+HEMCO/GFED4/v2015-10,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/GFED4/v2015-10,1,For GFED_daily
+HEMCO/GFED4/v2023-03,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/GFED4/v2023-03,1,For GFED4 global biomass burning emissions
+HEMCO/GMI/v2015-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/GMI/v2015-02,1,For GMI_OH and GMI_PROD_LOSS
+HEMCO/GT_Chlorine/v2024-05,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/GT_Chlorine/v2024-05,1,For Georgia Tech Chlorine emissions
+HEMCO/IODINE/v2020-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/IODINE/v2020-02,1,For ORDONEZ_IODOCARB
+HEMCO/LIGHTNOX/v2014-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/LIGHTNOX/v2014-07,1,For LightNOx CDF table
+HEMCO/MASKS/v2018-09,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MASKS/v2018-09,1,For China mask and APEI and NEI2016_MONMEAN and DICE_Africa
+HEMCO/MASKS/v2019-05,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MASKS/v2019-05,1,For AFCID
+HEMCO/MASKS/v2024-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MASKS/v2024-04,1,For CH4/carbon simulation Canada/Mexico/CONUS masks
+HEMCO/MEGAN/v2018-05,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MEGAN/v2018-05,1,For MEGAN biogenic emissions
+HEMCO/MEGAN/v2020-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MEGAN/v2020-02,1,For MEGAN biogenic emissions in GCHP
+HEMCO/MODIS_CHLR/v2019-11,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MODIS_CHLR/v2019-11,1,For SeaSalt and TOMAS_Jeagle
+HEMCO/MOH/v2019-12,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MOH/v2019-12,1,For SeaFlux
+HEMCO/MULTI_ICE/v2021-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MULTI_ICE/v2021-07,1,For SeaSalt
+HEMCO/NH3/v2018-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/NH3/v2018-04,1,NH3 from arctic seabirds
+HEMCO/NH3/v2019-08,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/NH3/v2019-08,1,GEIA NH3 from natural sources
+HEMCO/NOAA_GMD/v2023-10,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/NOAA_GMD/v2023-10,1,For GMD_SFC_CH4
+HEMCO/OCEAN_O3_DRYDEP/v2020-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OCEAN_O3_DRYDEP/v2020-02,1,For OCEAN_O3_DRYDEP
+HEMCO/OFFLINE_BIOVOC/v2021-12,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OFFLINE_BIOVOC/v2021-12,1,For OFFLINE_BIOGENICVOC
+HEMCO/OFFLINE_DUST/v2021-08,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OFFLINE_DUST/v2021-08,1,For OFFLINE_DUST
+HEMCO/OFFLINE_LIGHTNING/v2020-03,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OFFLINE_LIGHTNING/v2020-03,1,For OFFLINE_LIGHTNING in GCHP
+HEMCO/OFFLINE_SEASALT/v2019-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OFFLINE_SEASALT/v2019-01,1,For OFFLINE_SEASALT
+HEMCO/OFFLINE_SOILNOX/v2021-12,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OFFLINE_SOILNOX/v2021-12,1,For OFFLINE_SOILNOX
+HEMCO/PARANOX/v2015-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/PARANOX/v2015-02,1,For ParaNOx LUT source dir
+HEMCO/RONO2/v2019-05,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/RONO2/v2019-05,1,For SeaFlux
+HEMCO/SfcFix/v2019-12,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/SfcFix/v2019-12,1,For SfcVMR and CMIP6_SFC_BC
+HEMCO/SOA/v2014-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/SOA/v2014-07,1,For MEGAN in GCHP
+HEMCO/STRAT/v2015-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/STRAT/v2015-01,1,For CCM_STRAT_Bry
+HEMCO/TIMEZONES/v2024-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/TIMEZONES/v2024-02,1,For time zones (monthly)
+HEMCO/UVALBEDO/v2019-06,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/UVALBEDO/v2019-06,1,For UVALBEDO
+HEMCO/VerticalScaleFactors/v2021-05,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/VerticalScaleFactors/v2021-05,1,For CEDSv2 and CEDS_GBDMAPS
+HEMCO/VOLCANO/v2024-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/VOLCANO/v2024-04,1,For Volcano
+HEMCO/XIAO/v2014-09,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/XIAO/v2014-09,1,For XIAO_C3H8
+HEMCO/EDGARv43/v2016-11,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/EDGARv43/v2016-11,1,For EDGARv43 and DICE_Africa (optional?)
+HEMCO/GEIA/v2014-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/GEIA/v2014-07,1,For DICE_Africa (optional?)
+HEMCO/NEI2005/v2014-09,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/NEI2005/v2014-09,1,For scale factors (optional?)
+HEMCO/POET/v2017-03,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/POET/v2017-03,1,For POET_EOH (optional?)
+HEMCO/RRTMG/v2018-11,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/RRTMG/v2018-11,1,For RRTMG (optional?)
+HEMCO/SOILNOX/v2014-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/SOILNOX/v2014-07,1,For SoilNOx (optional?)
+HEMCO/TrashEmis/v2015-03,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/TrashEmis/v2015-03,1,For EDGARv43 (optional?)
+HEMCO/Yuan_XLAI/v2021-06,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/Yuan_XLAI/v2021-06,1,For YUAN_MODIS_LAI (optional?)
+HEMCO/APEI/v2016-11,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/APEI/v2016-11,0,Optional; APEI Canada
+HEMCO/CEDS/v2020-08,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CEDS/v2020-08,0,Optional; For CEDS GBD-MAPS
+HEMCO/CH4/v2022-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2022-01,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2022-11,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2022-11,1,Optional; For carbon/CH4/IMI simulations (file attributes fixed)
+HEMCO/CH4/v2023-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2023-04,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2023-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2023-07,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2024-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2024-01,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2024-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2024-02,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2024-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2024-04,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2024-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2024-07,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2025-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2025-01,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2025-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2025-04,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CO2/v2022-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CO2/v2022-01,0,Optional; For CO2 and carbon simulations
+HEMCO/DICE_Africa/v2016-10,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
+HEMCO/GCClassic_Output/14.0.0,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/GCClassic_Output/14.0.0,0,Optional: For specialty simulations needing to read offline fields
+HEMCO/HTAP3/v2022-12,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/HTAP3/v2022-12,0,Optional; For HTAPv3 and HTAPv3_SHIP
+HEMCO/MASKS/v2025-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MASKS/v2025-01,0,Optional: For Australian Hg emissions mask
+HEMCO/MERCURY/v2022-10,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MERCURY/v2022-10,0,Optional; For Hg simulations
+HEMCO/MERCURY/v2025-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/MERCURY/v2025-01,0,Optional; For Hg simulations
+HEMCO/NEI2005/v2023-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/NEI2005/v2023-02,0,Optional; Corrected NEI11/NEI16 scale factors
+HEMCO/NEI2016/v2021-06,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/NEI2016/v2021-06,0,Optional; For EPA NEI2016 USA
+HEMCO/OCS_FLUX/v2022-11,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OCS_FLUX/v2022-11,0,Optional; For carbon simulations
+HEMCO/OLSON_MAP/v2019-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OLSON_MAP/v2019-02,0,Optional; For OLSON_LANDMAP
+HEMCO/OMOC/v2018-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/OMOC/v2018-01,0,Optional; For OMOC_RATIO
+HEMCO/RCP/v2020-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/RCP/v2020-07,0,Optional; For RCP_3PD
+HEMCO/TRACE_METALS/v2021-06,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/TRACE_METALS/v2021-06,0,Optional; For trace metal simulation
+HEMCO/ZHANG_Rn222/v2021-11,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/ZHANG_Rn222/v2021-11,0,Optional; For TransportTracers simulation
