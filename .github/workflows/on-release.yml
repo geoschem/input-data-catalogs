@@ -6,11 +6,12 @@ jobs:
     name: Update main
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
           submodules: true
+          persist-credentials: false
       - run: |
           TAG=${GITHUB_REF##*/}
           echo "The triggering tag is ${TAG}"
