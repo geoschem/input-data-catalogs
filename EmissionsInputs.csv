@@ -65,8 +65,8 @@ HEMCO/CH4/v2024-02,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2024-
 HEMCO/CH4/v2024-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2024-04,1,Optional; For carbon/CH4/IMI simulations
 HEMCO/CH4/v2024-07,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2024-07,1,Optional; For carbon/CH4/IMI simulations
 HEMCO/CH4/v2025-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2025-01,1,Optional; For carbon/CH4/IMI simulations
-HEMCO/CH4/v2025-04,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2025-04,1,Optional; For carbon/CH4/IMI simulations
 HEMCO/CO2/v2022-01,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CO2/v2022-01,0,Optional; For CO2 and carbon simulations
+HEMCO/CH4/v2025-08,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/CH4/v2025-08,1,Optional; For carbon/CH4/IMI simulations
 HEMCO/DICE_Africa/v2016-10,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
 HEMCO/FINNv25/v2025-06,https://geos-chem.s3-us-west-2.amazonaws.com/FINNv25/v2025-06,0,Optional; FINNv25 biomass burning
 HEMCO/GCClassic_Output/14.0.0,https://geos-chem.s3-us-west-2.amazonaws.com/HEMCO/GCClassic_Output/14.0.0,0,Optional: For specialty simulations needing to read offline fields
