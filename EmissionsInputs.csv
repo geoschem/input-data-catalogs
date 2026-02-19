@@ -55,10 +55,14 @@ HEMCO/Yuan_XLAI/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/Yuan_XLAI/v
 HEMCO/APEI/v2016-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/APEI/v2016-11,0,Optional; APEI Canada
 HEMCO/CEDS/v2020-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/CEDS/v2020-08,0,Optional; For CEDS GBD-MAPS
 HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,0,Optional; For CH4 and IMI simulations
+HEMCO/CH4/v2022-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-11,0,Optional; For CH4 and IMI simulations (file attributes fixed)
+HEMCO/CO2/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CO2/v2022-01,0,Optional; For CO2 and carbon simulations
 HEMCO/DICE_Africa/v2016-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
 HEMCO/GCClassic_Output/13.0.0,http://geoschemdata.wustl.edu/ExtData/HEMCO/GCClassic_Output/13.0.0,0,Optional: For specialty simulations needing to read offline fields
-HEMCO/HTAP/v2015-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/HTAP/v2015-03,0,Optional; For HTAP and HTAP_SHIP
+HEMCO/HTAP3/v2022-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/HTAP3/v2022-12,0,Optional; For HTAPv3 and HTAPv3_SHIP
+HEMCO/MERCURY/v2022-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/MERCURY/v2022-10,0,Optional; For Hg simulations
 HEMCO/NEI2016/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/NEI2016/v2021-06,0,Optional; For EPA NEI2016 USA
+HEMCO/OCS_FLUX/v2022-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/OCS_FLUX/v2022-11,0,Optional; For carbon simulations
 HEMCO/OLSON_MAP/v2019-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/OLSON_MAP/v2019-02,0,Optional; For OLSON_LANDMAP
 HEMCO/OMOC/v2018-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/OMOC/v2018-01,0,Optional; For OMOC_RATIO
 HEMCO/RCP/v2020-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/RCP/v2020-07,0,Optional; For RCP_3PD
