@@ -14,12 +14,14 @@ HEMCO/DMS/v2015-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/DMS/v2015-07,1,Fo
 HEMCO/DUST_DEAD/v2019-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/DUST_DEAD/v2019-06,1,For DustDead
 HEMCO/EDGARv42/v2015-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/EDGARv42/v2015-02,1,For EDGARv43 and diurnal scale factors
 HEMCO/GFED4/v2015-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/GFED4/v2015-10,1,For GFED_daily
-HEMCO/GFED4/v2023-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/GFED4/v2020-02,1,For GFED4 global biomass burning emissions
+HEMCO/GFED4/v2023-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/GFED4/v2023-03,1,For GFED4 global biomass burning emissions
 HEMCO/GMI/v2015-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/GMI/v2015-02,1,For GMI_OH and GMI_PROD_LOSS
+HEMCO/GT_Chlorine/v2024-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/GT_Chlorine/v2024-05,1,For Georgia Tech Chlorine emissions
 HEMCO/IODINE/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/IODINE/v2020-02,1,For ORDONEZ_IODOCARB
 HEMCO/LIGHTNOX/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/LIGHTNOX/v2014-07,1,For LightNOx CDF table
 HEMCO/MASKS/v2018-09,http://geoschemdata.wustl.edu/ExtData/HEMCO/MASKS/v2018-09,1,For China mask and APEI and NEI2016_MONMEAN and DICE_Africa
 HEMCO/MASKS/v2019-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/MASKS/v2019-05,1,For AFCID
+HEMCO/MASKS/v2024-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/MASKS/v2024-04,0,For CH4/carbon simulation Canada/Mexico/CONUS masks
 HEMCO/MEGAN/v2018-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/MEGAN/v2018-05,1,For MEGAN biogenic emissions
 HEMCO/MEGAN/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/MEGAN/v2020-02,1,For MEGAN biogenic emissions in GCHP
 HEMCO/MODIS_CHLR/v2019-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/MODIS_CHLR/v2019-11,1,For SeaSalt and TOMAS_Jeagle
@@ -27,7 +29,7 @@ HEMCO/MOH/v2019-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/MOH/v2019-12,1,Fo
 HEMCO/MULTI_ICE/v2021-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/MULTI_ICE/v2021-07,1,For SeaSalt
 HEMCO/NH3/v2018-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/NH3/v2018-04,1,NH3 from arctic seabirds
 HEMCO/NH3/v2019-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/NH3/v2019-08,1,GEIA NH3 from natural sources
-HEMCO/NOAA_GMD/v2018-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/NOAA_GMD/v2018-01,1,For GMD_SFC_CH4
+HEMCO/NOAA_GMD/v2023-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/NOAA_GMD/v2023-10,1,For GMD_SFC_CH4
 HEMCO/OCEAN_O3_DRYDEP/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/OCEAN_O3_DRYDEP/v2020-02,1,For OCEAN_O3_DRYDEP
 HEMCO/OFFLINE_BIOVOC/v2021-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_BIOVOC/v2021-12,1,For OFFLINE_BIOGENICVOC
 HEMCO/OFFLINE_DUST/v2021-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_DUST/v2021-08,1,For OFFLINE_DUST
@@ -39,10 +41,10 @@ HEMCO/RONO2/v2019-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/RONO2/v2019-05,
 HEMCO/SfcFix/v2019-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/SfcFix/v2019-12,1,For SfcVMR and CMIP6_SFC_BC
 HEMCO/SOA/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/SOA/v2014-07,1,For MEGAN in GCHP
 HEMCO/STRAT/v2015-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/STRAT/v2015-01,1,For CCM_STRAT_Bry
-HEMCO/TIMEZONES/v2015-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/TIMEZONES/v2015-02,1,For time zones
+HEMCO/TIMEZONES/v2024-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/TIMEZONES/v2024-02,1,For time zones (monthly)
 HEMCO/UVALBEDO/v2019-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/UVALBEDO/v2019-06,1,For UVALBEDO
 HEMCO/VerticalScaleFactors/v2021-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/VerticalScaleFactors/v2021-05,1,For CEDSv2 and CEDS_GBDMAPS
-HEMCO/VOLCANO/v2021-09,http://geoschemdata.wustl.edu/ExtData/HEMCO/VOLCANO/v2021-09,1,For Volcano
+HEMCO/VOLCANO/v2024-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/VOLCANO/v2024-04,1,For Volcano
 HEMCO/XIAO/v2014-09,http://geoschemdata.wustl.edu/ExtData/HEMCO/XIAO/v2014-09,1,For XIAO_C3H8
 HEMCO/EDGARv43/v2016-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/EDGARv43/v2016-11,1,For EDGARv43 and DICE_Africa (optional?)
 HEMCO/GEIA/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/GEIA/v2014-07,1,For DICE_Africa (optional?)
