@@ -21,7 +21,7 @@ HEMCO/IODINE/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/IODINE/v2020-0
 HEMCO/LIGHTNOX/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/LIGHTNOX/v2014-07,1,For LightNOx CDF table
 HEMCO/MASKS/v2018-09,http://geoschemdata.wustl.edu/ExtData/HEMCO/MASKS/v2018-09,1,For China mask and APEI and NEI2016_MONMEAN and DICE_Africa
 HEMCO/MASKS/v2019-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/MASKS/v2019-05,1,For AFCID
-HEMCO/MASKS/v2024-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/MASKS/v2024-04,0,For CH4/carbon simulation Canada/Mexico/CONUS masks
+HEMCO/MASKS/v2024-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/MASKS/v2024-04,1,For CH4/carbon simulation Canada/Mexico/CONUS masks
 HEMCO/MEGAN/v2018-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/MEGAN/v2018-05,1,For MEGAN biogenic emissions
 HEMCO/MEGAN/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/MEGAN/v2020-02,1,For MEGAN biogenic emissions in GCHP
 HEMCO/MODIS_CHLR/v2019-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/MODIS_CHLR/v2019-11,1,For SeaSalt and TOMAS_Jeagle
@@ -56,9 +56,14 @@ HEMCO/TrashEmis/v2015-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/TrashEmis/v
 HEMCO/Yuan_XLAI/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/Yuan_XLAI/v2021-06,1,For YUAN_MODIS_LAI (optional?)
 HEMCO/APEI/v2016-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/APEI/v2016-11,0,Optional; APEI Canada
 HEMCO/CEDS/v2020-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/CEDS/v2020-08,0,Optional; For CEDS GBD-MAPS
-HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,0,Optional; For carbon/CH4/IMI simulations
-HEMCO/CH4/v2022-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-11,0,Optional; For carbon/CH4/IMI simulations (file attributes fixed)
-HEMCO/CH4/v2023-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2023-04,0,Optional; For carbon/CH4/IMI simulations (EDGARv7 + Loss freqs + Hydropower emissions)
+HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2022-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-11,1,Optional; For carbon/CH4/IMI simulations (file attributes fixed)
+HEMCO/CH4/v2023-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2023-04,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2023-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2023-07,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2024-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2024-01,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2024-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2024-02,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2024-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2024-04,1,Optional; For carbon/CH4/IMI simulations
+HEMCO/CH4/v2024-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2024-07,1,Optional; For carbon/CH4/IMI simulations
 HEMCO/CO2/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CO2/v2022-01,0,Optional; For CO2 and carbon simulations
 HEMCO/DICE_Africa/v2016-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
 HEMCO/GCClassic_Output/14.0.0,http://geoschemdata.wustl.edu/ExtData/HEMCO/GCClassic_Output/14.0.0,0,Optional: For specialty simulations needing to read offline fields
