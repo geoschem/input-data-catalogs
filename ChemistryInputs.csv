@@ -1,12 +1,6 @@
-Path to Collection,Collection URL,Enabled/Disabled,Comments
-CHEM_INPUTS/Aerosol_Optics/v2025-03,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/Aerosol_Optics/v2025-03,1,Aerosol optics properties for computing AODs
-CHEM_INPUTS/CLOUD_J/v2025-01,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/CLOUD_J/v2025-01,1,Configuration files for Cloud-J v8+
-CHEM_INPUTS/CLOUD_J/v2025-01-Hg,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/CLOUD_J/v2025-01-Hg,1,Configuration files for Cloud-J v8+ (Hg simulation)
-CHEM_INPUTS/FAST_JX/v2024-05,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/FAST_JX/v2024-05,1,Configuration files for FAST-JX (needed for Hg simulation)
-CHEM_INPUTS/FAST_JX/v2024-05-Hg,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/FAST_JX/v2024-05-Hg,1,For Hg simulation
-CHEM_INPUTS/FastJ_201204,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/FastJ_201204,1,
-CHEM_INPUTS/Linoz_200910,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/Linoz_200910,1,
-CHEM_INPUTS/Olson_Land_Map_201203,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/Olson_Land_Map_201203,1,For OLSON_LANDMAP in GCHP
-CHEM_INPUTS/UCX_201403,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/UCX_201403,1,
-CHEM_INPUTS/APM_data_201906,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/APM_data_201906,0,For APM microphysics
-CHEM_INPUTS/TOMAS_201402,https://geos-chem.s3-us-west-2.amazonaws.com/CHEM_INPUTS/TOMAS_201402,0,For TOMAS microphysics
+Path to collection,Canonical collection (URL),Enabled,Notes
+CHEM_INPUTS/FAST_JX/v2020-02,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/FAST_JX/v2020-02,1,
+CHEM_INPUTS/FastJ_201204,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/FastJ_201204,1,
+CHEM_INPUTS/Linoz_200910,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/Linoz_200910,1,
+CHEM_INPUTS/Olson_Land_Map_201203,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/Olson_Land_Map_201203,1,
+CHEM_INPUTS/UCX_201403,http://geoschemdata.wustl.edu/ExtData/CHEM_INPUTS/UCX_201403,1,
