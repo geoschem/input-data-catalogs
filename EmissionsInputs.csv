@@ -1,6 +1,6 @@
 Path to Collection,Collection URL,Enabled/Disabled,Comments (and corresponding HEMCO extension switches)
 HEMCO/ACET/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/ACET/v2014-07,1,For SeaFlux
-HEMCO/AEIC/v2015-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/AEIC/v2015-01,1,For AEIC global aircraft
+HEMCO/AEIC2019/v2022-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/AEIC2019/v2022-03,1,For AEIC2019 global aircraft
 HEMCO/AFCID/v2018-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/AFCID/v2018-04,1,For global AFCID
 HEMCO/ALD2/v2017-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/ALD2/v2017-03,1,For SeaFlux
 HEMCO/AnnualScalar/v2014-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/AnnualScalar/v2014-07,1,For XIAO_C3H8 and HTAP
@@ -54,11 +54,12 @@ HEMCO/TrashEmis/v2015-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/TrashEmis/v
 HEMCO/Yuan_XLAI/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/Yuan_XLAI/v2021-06,1,For YUAN_MODIS_LAI (optional?)
 HEMCO/APEI/v2016-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/APEI/v2016-11,0,Optional; APEI Canada
 HEMCO/CEDS/v2020-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/CEDS/v2020-08,0,Optional; For CEDS GBD-MAPS
+HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,0,Optional; For CH4 and IMI simulations
 HEMCO/DICE_Africa/v2016-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
 HEMCO/HTAP/v2015-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/HTAP/v2015-03,0,Optional; For HTAP and HTAP_SHIP
 HEMCO/NEI2016/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/NEI2016/v2021-06,0,Optional; For EPA NEI2016 USA
 HEMCO/OLSON_MAP/v2019-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/OLSON_MAP/v2019-02,0,Optional; For OLSON_LANDMAP
 HEMCO/OMOC/v2018-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/OMOC/v2018-01,0,Optional; For OMOC_RATIO
 HEMCO/RCP/v2020-07,http://geoschemdata.wustl.edu/ExtData/HEMCO/RCP/v2020-07,0,Optional; For RCP_3PD
-HEMCO/SAMPLE_BCs/v2021-09,http://geoschemdata.wustl.edu/ExtData/HEMCO/SAMPLE_BCs/v2021-09,0,For nested simulations
 HEMCO/TRACE_METALS/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/TRACE_METALS/v2021-06,0,Optional; For trace metal simulation
+HEMCO/ZHANG_Rn222/v2021-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/ZHANG_Rn222/v2021-11,0,Optional; For TransportTracers simulation
