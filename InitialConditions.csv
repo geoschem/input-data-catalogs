@@ -1,9 +1,9 @@
 Path to Collection,Collection URL,Enabled/Disabled,Comments
-GEOSCHEM_RESTARTS/GC_14.3.0,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/GC_14.3.0,1,
-GEOSCHEM_RESTARTS/GC_14.2.0,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/GC_14.2.0,1,
-GEOSCHEM_RESTARTS/v2021-06,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2021-06,0,Optional; For metals specialty simulation
-GEOSCHEM_RESTARTS/v2020-02,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2020-02,0,Optional; For POPs and other specialty simulations
-GEOSCHEM_RESTARTS/GC_14.2.0,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/GC_14.2.0,0,Optional; For TransportTracers simulation
-GEOSCHEM_RESTARTS/v2021-12,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/GC_13.0.0,0,Optional; For TOMAS simulations
-GEOSCHEM_RESTARTS/v2022-02,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2022-02,0,Optional; For tagged O3 specialty simulation
-GEOSCHEM_RESTARTS/v2023-12,http://geoschemdata.wustl.edu/ExtData/GEOSCHEM_RESTARTS/v2023-12,0,Optional; For Hg simulation
+GEOSCHEM_RESTARTS/GC_14.3.0,https://geos-chem.s3-us-west-2.amazonaws.com/GEOSCHEM_RESTARTS/GC_14.3.0,1,
+GEOSCHEM_RESTARTS/GC_14.2.0,https://geos-chem.s3-us-west-2.amazonaws.com/GEOSCHEM_RESTARTS/GC_14.2.0,1,
+GEOSCHEM_RESTARTS/v2021-06,https://geos-chem.s3-us-west-2.amazonaws.com/GEOSCHEM_RESTARTS/v2021-06,0,Optional; For metals specialty simulation
+GEOSCHEM_RESTARTS/v2020-02,https://geos-chem.s3-us-west-2.amazonaws.com/GEOSCHEM_RESTARTS/v2020-02,0,Optional; For POPs and other specialty simulations
+GEOSCHEM_RESTARTS/GC_14.2.0,https://geos-chem.s3-us-west-2.amazonaws.com/GEOSCHEM_RESTARTS/GC_14.2.0,0,Optional; For TransportTracers simulation
+GEOSCHEM_RESTARTS/v2021-12,https://geos-chem.s3-us-west-2.amazonaws.com/GEOSCHEM_RESTARTS/GC_13.0.0,0,Optional; For TOMAS simulations
+GEOSCHEM_RESTARTS/v2022-02,https://geos-chem.s3-us-west-2.amazonaws.com/GEOSCHEM_RESTARTS/v2022-02,0,Optional; For tagged O3 specialty simulation
+GEOSCHEM_RESTARTS/v2023-12,https://geos-chem.s3-us-west-2.amazonaws.com/GEOSCHEM_RESTARTS/v2023-12,0,Optional; For Hg simulation
