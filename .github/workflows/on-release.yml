@@ -1,5 +1,13 @@
 name: Update main (on release)
-on: create
+
+# Only run the action on a tag push
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+
+permissions:
+  contents: write
 
 jobs:
   run:
@@ -10,23 +18,49 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          submodules: true
-          persist-credentials: false
-      - run: |
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update submodule for release
+        run: |
           TAG=${GITHUB_REF##*/}
           echo "The triggering tag is ${TAG}"
-          echo $TAG | grep '[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*' || exit 0
-          VERSION=$(echo $TAG | grep -o "^[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*")
+
+          if ! echo "$TAG" | grep -qE '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+            echo "Not a semantic version tag, skipping"
+            exit 0
+          fi
+
+          VERSION=$(echo "$TAG" | grep -oE '^[0-9]+\.[0-9]+\.[0-9]+')
           echo "The version is ${VERSION}"
 
-          [ -d ${VERSION} ] || git submodule add https://github.com/geoschem/input-data-catalogs.git ${VERSION}
-          cd ${VERSION}
-          git fetch
-          git checkout $TAG
-          cd ..
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          # Check if submodule already exists
+          if [ -d "${VERSION}" ]; then
+            echo "Submodule ${VERSION} already exists, updating..."
+            cd "${VERSION}"
+            git fetch
+            git checkout "$TAG"
+            cd ..
+          else
+            echo "Adding new submodule ${VERSION}"
+            git submodule add https://github.com/geoschem/input-data-catalogs.git "${VERSION}"
+            cd "${VERSION}"
+            git checkout "$TAG"
+            cd ..
+          fi
+
+          # Check for changes before committing
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          # Commit and push changes
           git add .
           git commit -m "Updated main for ${VERSION} release"
           git push origin main
+          echo "✅ Successfully updated main with version ${VERSION}"

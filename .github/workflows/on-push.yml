@@ -1,8 +1,12 @@
 name: Update main (on push)
-on: 
+
+on:
   push:
     branches:
       - dev
+
+permissions:
+  contents: write
 
 jobs:
   run:
@@ -13,15 +17,33 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          submodules: true
-          persist-credentials: false
-      - run: |
+          submodules: recursive
+          persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update develop submodule
+        run: |
+          set -e  # Exit on error
+
+          if [ ! -d "develop" ]; then
+            echo "::error::develop submodule not found"
+            exit 1
+          fi
+
           cd develop
-          git fetch
-          git checkout origin/dev
+          git fetch origin
+          git checkout dev
+          git reset --hard origin/dev
           cd ..
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "Updated develop catalogs on main"
-          git push origin main
+
+          # Check for changes
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add develop
+            git commit -m "Updated develop submodule to latest dev branch"
+            git push origin main
+            echo "✅ Successfully updated main"
+          else
+            echo "ℹ️ No changes detected, skipping commit"
+          fi
