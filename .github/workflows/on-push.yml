@@ -40,10 +40,28 @@ jobs:
           if ! git diff --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            # ⬇️ ADDED: Pull latest main before committing
+            git fetch origin main
+            git pull origin main --rebase
+
             git add develop
             git commit -m "Updated develop submodule to latest dev branch"
-            git push origin main
-            echo "✅ Successfully updated main"
+
+            # ⬇️ ADDED: Retry logic in case of race condition
+            for i in {1..3}; do
+              if git push origin main; then
+                echo "✅ Successfully updated main"
+                exit 0
+              else
+                echo "⚠️ Push failed (attempt $i/3), pulling and retrying..."
+                git pull origin main --rebase
+                sleep 2
+              fi
+            done
+
+            echo "::error::Failed to push after 3 attempts"
+            exit 1
           else
             echo "ℹ️ No changes detected, skipping commit"
           fi
