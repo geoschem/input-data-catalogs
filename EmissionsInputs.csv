@@ -29,11 +29,11 @@ HEMCO/NH3/v2018-04,http://geoschemdata.wustl.edu/ExtData/HEMCO/NH3/v2018-04,1,NH
 HEMCO/NH3/v2019-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/NH3/v2019-08,1,GEIA NH3 from natural sources
 HEMCO/NOAA_GMD/v2018-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/NOAA_GMD/v2018-01,1,For GMD_SFC_CH4
 HEMCO/OCEAN_O3_DRYDEP/v2020-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/OCEAN_O3_DRYDEP/v2020-02,1,For OCEAN_O3_DRYDEP
-HEMCO/OFFLINE_BIOVOC/v2019-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_BIOVOC/v2019-10,1,For OFFLINE_BIOGENICVOC
+HEMCO/OFFLINE_BIOVOC/v2021-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_BIOVOC/v2021-12,1,For OFFLINE_BIOGENICVOC
 HEMCO/OFFLINE_DUST/v2021-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_DUST/v2021-08,1,For OFFLINE_DUST
 HEMCO/OFFLINE_LIGHTNING/v2020-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_LIGHTNING/v2020-03,1,For OFFLINE_LIGHTNING in GCHP
 HEMCO/OFFLINE_SEASALT/v2019-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_SEASALT/v2019-01,1,For OFFLINE_SEASALT
-HEMCO/OFFLINE_SOILNOX/v2019-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_SOILNOX/v2019-01,1,For OFFLINE_SOILNOX
+HEMCO/OFFLINE_SOILNOX/v2021-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/OFFLINE_SOILNOX/v2021-12,1,For OFFLINE_SOILNOX
 HEMCO/PARANOX/v2015-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/PARANOX/v2015-02,1,For ParaNOx LUT source dir
 HEMCO/RONO2/v2019-05,http://geoschemdata.wustl.edu/ExtData/HEMCO/RONO2/v2019-05,1,For SeaFlux
 HEMCO/SfcFix/v2019-12,http://geoschemdata.wustl.edu/ExtData/HEMCO/SfcFix/v2019-12,1,For SfcVMR and CMIP6_SFC_BC
@@ -56,6 +56,7 @@ HEMCO/APEI/v2016-11,http://geoschemdata.wustl.edu/ExtData/HEMCO/APEI/v2016-11,0,
 HEMCO/CEDS/v2020-08,http://geoschemdata.wustl.edu/ExtData/HEMCO/CEDS/v2020-08,0,Optional; For CEDS GBD-MAPS
 HEMCO/CH4/v2022-01,http://geoschemdata.wustl.edu/ExtData/HEMCO/CH4/v2022-01,0,Optional; For CH4 and IMI simulations
 HEMCO/DICE_Africa/v2016-10,http://geoschemdata.wustl.edu/ExtData/HEMCO/DICE_Africa/v2016-10,0,Optional; For DICE_Africa
+HEMCO/GCClassic_Output/13.0.0,http://geoschemdata.wustl.edu/ExtData/HEMCO/GCClassic_Output/13.0.0,0,Optional: For specialty simulations needing to read offline fields
 HEMCO/HTAP/v2015-03,http://geoschemdata.wustl.edu/ExtData/HEMCO/HTAP/v2015-03,0,Optional; For HTAP and HTAP_SHIP
 HEMCO/NEI2016/v2021-06,http://geoschemdata.wustl.edu/ExtData/HEMCO/NEI2016/v2021-06,0,Optional; For EPA NEI2016 USA
 HEMCO/OLSON_MAP/v2019-02,http://geoschemdata.wustl.edu/ExtData/HEMCO/OLSON_MAP/v2019-02,0,Optional; For OLSON_LANDMAP
